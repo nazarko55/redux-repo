@@ -1,6 +1,6 @@
 import React from 'react';
 import { themeContext } from './themes'
-class ThemeButton extends React.Component {
+class ThemedButton extends React.Component {
 
   render() {
     console.log(this.props);
@@ -14,6 +14,6 @@ class ThemeButton extends React.Component {
   }
 }
 
-ThemeButton.contextType = themeContext
+ThemedButton.contextType = themeContext
 
-export default ThemeButton;
+export default ThemedButton;
