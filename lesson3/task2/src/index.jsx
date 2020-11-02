@@ -1,4 +1,4 @@
-/* import store from './store';
+import store from './store';
 import { addUser, deleteUser, updateUser } from './users.actions';
 import { increment, decrement, reset } from './counter.actions';
 
@@ -19,4 +19,4 @@ store.dispatch(addUser({ id: 1, name: 'John' }));
 store.dispatch(addUser({ id: 14, name: 'Bob' }));
 
 store.dispatch(deleteUser(14));
-store.dispatch(updateUser(1, { id: 56, name: 'Jane', age: 23 })); */
+store.dispatch(updateUser(1, { id: 56, name: 'Jane', age: 23 }));
