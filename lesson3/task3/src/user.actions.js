@@ -1,14 +1,15 @@
-export const SAVE_USER = 'CART/SAVE_USER';
-export const RESET_USER = 'CART/RESET_USER ';
+export const SAVE_USER = 'USER/SAVE_USER';
+export const RESET_USER = 'USER/RESET_USER';
 
-export const addUser = (userData) => {
+export const setUser = (userData) => {
   return {
     type: SAVE_USER,
     payload: {
       userData
     }
-  }
+  };
 }
+
 
 export const removeUser = (userId) => {
   return {
@@ -16,5 +17,5 @@ export const removeUser = (userId) => {
     payload: {
       userId
     }
-  }
+  };
 }
