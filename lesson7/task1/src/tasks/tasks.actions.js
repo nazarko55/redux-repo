@@ -67,6 +67,7 @@ export const changeTask = taskId => {
         taskGateway.getTasksList()
           .then(tasks => dispatch(tasksDataRecieved(tasks)))
       })
+
   }
 
 }
