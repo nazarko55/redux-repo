@@ -47,6 +47,7 @@ const mapDispatch = {
   createTask: tasksActions.createTask,
   deleteTask: tasksActions.deleteTask,
   changeTask: tasksActions.changeTask,
+
 }
 
 export default connect(mapState, mapDispatch)(TasksList)

@@ -68,4 +68,5 @@ export const changeTask = taskId => {
           .then(tasks => dispatch(tasksDataRecieved(tasks)))
       })
   }
+
 }

@@ -29,8 +29,7 @@ class Task extends React.PureComponent {
         <button className="list-item__delete-btn" onClick={() => onDelete(id)}></button>
 
       </div>
-
-
+      //
 
     )
   }

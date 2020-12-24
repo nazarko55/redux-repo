@@ -13,7 +13,6 @@ const TodoList = () =>
       <TasksList />
     </div>
 
-
     <div className="three-element-block">
       <TasksList />
     </div>

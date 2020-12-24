@@ -8,4 +8,5 @@ export const sortedTasksDataSelector = createSelector(
   (tasks) => tasks
     .slice()
     .sort((a, b) => a.done - b.done)
+
 );

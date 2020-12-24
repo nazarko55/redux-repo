@@ -14,6 +14,7 @@ export const createTask = taskData =>
     if (!res.ok) {
       throw new Error('Failed to create task')
     }
+
   });
 
 export const updateTask = (taskId, taskData) =>

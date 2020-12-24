@@ -14,6 +14,7 @@ class CreateTaskInput extends React.PureComponent {
   handleAddTodo = () => {
     this.props.handleAddTodo(this.state.value);
     this.setState({ value: '' })
+
   }
 
   render() {
