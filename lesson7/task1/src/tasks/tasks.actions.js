@@ -19,7 +19,7 @@ export const tasksDataRecieved = tasksData => {
     }
   }
 }
-//debugger
+
 export const fetchTasksList = () => {
   return dispatch => {
     dispatch(showSpinner())

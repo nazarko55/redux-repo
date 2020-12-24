@@ -19,8 +19,6 @@ body {
   background-color: coral;
   border-radius: 8px;
   padding: 8px;
-  max-width: 600px;
-  margin: auto;
 }
 
 .list {
@@ -53,7 +51,7 @@ body {
   }
 
   &__checkbox {
-      margin-right: 8px;
+      margin-right: 6px;
   }
 
   &__delete-btn {
@@ -100,3 +98,66 @@ body {
       flex: 1;
   }
 }
+
+ .main-element-block {
+  display: flex;
+  justify-content: space-around;
+} 
+
+
+.img-bag {
+  margin-right: 10px;
+  margin-left: 5px;
+}
+
+ @media screen and (max-width: 992px) {
+  .main-element-block {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    min-width: 200px;
+    
+    }
+
+   .one-element-block{
+      width: 50%;
+      padding-right: 10px;
+   }
+  
+  
+   .two-element-block{
+     width: 50%;
+     max-width: 500px;
+     
+   }
+   .three-element-block{
+     width: 50%;
+     max-width: 400px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .main-element-block {
+    max-width: 480px;
+    min-width: 480px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+   }
+   .one-element-block{
+     min-width: 360px;
+  }
+ 
+ 
+  .two-element-block{
+    padding-right: 10px;
+    width: 75%;
+
+  }
+  .three-element-block{
+    padding-right: 10px;
+    min-width: 360px;
+
+   }
+
+  }
