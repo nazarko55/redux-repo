@@ -13,6 +13,7 @@ module.exports = (env, argv) => {
       path: path.resolve(__dirname, 'review_build'),
       publicPath: '/'
     },
+
     module: {
       rules: [
         {
